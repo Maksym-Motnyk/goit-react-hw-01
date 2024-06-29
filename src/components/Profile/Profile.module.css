@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 16px;
+}
+
+.containerImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.imgProfile {
+  border-radius: 50%;
+  background-color: black;
+}
+img {
+  display: block;
+}
+
+p {
+  margin: 0 auto;
+}
+.name {
+  font-size: 40px;
+  font-weight: 700;
+}
+.tagLocatio {
+  font-size: 30px;
+  font-weight: 500;
+  color: gray;
+}
+
+.profileLyst {
+  background-color: rgb(163, 155, 155);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.profileLystLi {
+  border-top: 4px solid rgb(75, 69, 69);
+  border-right: 4px solid rgb(75, 69, 69);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+}
+.profileLystLi:last-child {
+  border-right: none;
+}
+
+.spanInfo {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.spanNumder {
+  font-size: 30px;
+  font-weight: 500;
+}
